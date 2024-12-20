@@ -24,7 +24,7 @@
 
 ![COMANDO top](img/top.png)
 
-## COMANDO top -b -n 1 > top.txt*
+## COMANDO top -b -n 1 > top.txt
 
 > Este comando ejecuta `top` en modo batch (sin interacción) y captura una sola instantánea de los procesos en ejecución, redirigiendo la salida al archivo **top.txt**
 

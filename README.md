@@ -27,6 +27,3 @@
 
 ## AUTORES
 * [Alejandro Montero Agroba](https://github.com/alemonterx)
-
-## LICENCIA
-![Licencia](img/licencia.png)

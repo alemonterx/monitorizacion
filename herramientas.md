@@ -64,7 +64,7 @@
 
 ## COMANDO FREE
 
-> Los comandos free, free -h y free -s 3 en Linux tienen las siguientes funciones:
+Los comandos free, free -h y free -s 3 en Linux tienen las siguientes funciones:
 
 * `free`: Muestra la cantidad de memoria total, usada, libre y compartida en el sistema, tanto para la memoria RAM como para la memoria de intercambio (swap).
 
@@ -74,3 +74,14 @@
 
 ![COMANDO free](img/free.png)
 
+## COMANDO DF
+
+Los comandos df -h, df -hT y df -h / en Linux tienen las siguientes funciones:
+
+* `df -h`: Muestra el uso del sistema de archivos en un formato legible para el ser humano (en KB, MB, GB, etc.), mostrando el espacio total, usado, disponible y el punto de montaje.
+
+* `df -hT`: Muestra el uso del sistema de archivos junto con el tipo de sistema de archivos (por ejemplo, ext4, xfs, etc.), en un formato legible para el ser humano.
+
+* `df -h /`: Muestra el uso del sistema de archivos de la raíz ("/"), en formato legible para el ser humano, mostrando el espacio utilizado y disponible en la partición donde está montada la raíz del sistema.
+
+![COMANDO df](img/df.png)

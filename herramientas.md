@@ -25,3 +25,15 @@
 ![COMANDO ps -eo](img/pseo.png)
 
 - Este comando Muestra los 6 procesos principales (incluyendo el encabezado) ordenados por el uso de CPU en orden descendente, con información del usuario, PID, porcentaje de CPU y memoria utilizada, y el tiempo de ejecución del proceso.
+
+---
+
+## COMANDO TOP
+
+> El comando `top` en Linux muestra en tiempo real los procesos en ejecución y el uso de recursos del sistema, como CPU, memoria y carga promedio.
+
+![COMANDO top](img/top.png)
+
+---
+
+*

@@ -2,9 +2,9 @@
 
 ## COMANDO ps aux
 
-![COMANDO ps aux](img/psaux.png)
-
 > Este comando muestra información detallada de todos los procesos del sistema, incluidos los que no están asociados a terminales, junto con datos como usuario, uso de CPU y memoria.
+
+![COMANDO ps aux](img/psaux.png)
 
 ## COMANDO ps -C nano
 
@@ -23,8 +23,6 @@
 > El comando `top` en Linux muestra en tiempo real los procesos en ejecución y el uso de recursos del sistema, como CPU, memoria y carga promedio.
 
 ![COMANDO top](img/top.png)
-
----
 
 ## COMANDO top -b -n 1 > top.txt*
 

@@ -46,6 +46,14 @@
 
 ## COMANDO ATOP
 
-> El comando atop en Linux es una herramienta de monitoreo de rendimiento que muestra estadísticas detalladas sobre el uso de recursos del sistema, como CPU, memoria, disco, red y procesos, en tiempo real y con la capacidad de registrar estos datos.
+> El comando `atop` en Linux es una herramienta de monitoreo de rendimiento que muestra estadísticas detalladas sobre el uso de recursos del sistema, como CPU, memoria, disco, red y procesos, en tiempo real y con la capacidad de registrar estos datos.
 
 ![COMANDO atop](img/atop.png)
+
+---
+
+## COMANDO HTOP
+
+> El comando `htop` en Linux es una herramienta interactiva que muestra una vista en tiempo real de los procesos en ejecución, similar a top, pero con una interfaz más amigable y visual, permitiendo gestionar procesos, ordenar información y ver el uso de recursos como CPU, memoria y red de manera más detallada.
+
+![COMANDO htop](img/htop.png)

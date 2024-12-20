@@ -1,4 +1,4 @@
 # MONITORIZACIÓN
 
-! [PORTADA] (img/portada.jpg)
+![PORTADA](img/portada.jpg)
 

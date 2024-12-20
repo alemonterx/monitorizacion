@@ -12,7 +12,7 @@
 
 ![COMANDO ps -C](img/psCnano.png)
 
-## COMANDO ps -eo user,pid,$cpu,%mem,time --sort=-%cpu | head -n 6*
+## COMANDO ps -eo user,pid,$cpu,%mem,time --sort=-%cpu | head -n 6
 
 > Este comando muestra los 6 procesos principales (incluyendo el encabezado) ordenados por el uso de CPU en orden descendente, con información del usuario, PID, porcentaje de CPU y memoria utilizada, y el tiempo de ejecución del proceso.
 

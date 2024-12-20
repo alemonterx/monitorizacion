@@ -70,6 +70,8 @@ Los comandos df -h, df -hT y df -h / en Linux tienen las siguientes funciones:
 
 ![COMANDO df](img/df.png)
 
+## COMANDO iostat
+
 Los comandos iostat e iostat -x sda en Linux tienen las siguientes funciones:
 
 * `iostat`: Muestra estadísticas sobre el uso de CPU y el rendimiento de los dispositivos de entrada/salida (I/O), como discos y particiones, incluyendo datos sobre operaciones de lectura y escritura, tiempo de espera y uso de recursos.
@@ -77,3 +79,38 @@ Los comandos iostat e iostat -x sda en Linux tienen las siguientes funciones:
 * `iostat -x sda`: Muestra estadísticas extendidas (con más detalles) de I/O específicamente para el dispositivo sda (el primer disco duro o SSD en muchos sistemas Linux), proporcionando información más detallada sobre el rendimiento del dispositivo, como tiempos de espera, latencia y operaciones por segundo.
 
 ![COMANDO iostat](img/iostat.png)
+
+# MONITORIZACIÓN DE RED
+
+## COMANDO tcpdump
+
+> El comando `tcpdump` en Linux es una herramienta de captura y análisis de paquetes de red.
+
+![COMANDO tcpdump](img/tcpdump.png)
+
+## COMANDO tcpdump -i wlp0s20f3
+
+> Este comando captura y muestra en tiempo real los paquetes de red que pasan a través de la interfaz de red **wlp0s20f3**.
+
+![COMANDO tcpdump -i wlp0s20f3](img/tcpdumpi.png)
+
+## COMANDO tcpdump -i wlp0s20f3 -w red
+
+> Este comando captura el tráfico de red de la interfaz wlp0s20f3 (probablemente una interfaz inalámbrica) y guarda los paquetes capturados en un archivo llamado red en lugar de mostrarlos en la terminal.
+
+![COMANDO tcpdump -i wlp0s20f3 -w red](img/tcpdumpiw.png)
+
+## COMANDO tcptrack -i wlp0s20f3
+> El comando `tcptrack -i wlp0s20f3` muestra en tiempo real las conexiones TCP activas en la interfaz de red wlp0s20f3, proporcionando detalles como direcciones IP, puertos, estado de las conexiones y la cantidad de datos transferidos.
+
+![COMANDO tcptrack -i wlp0s20f3](img/tcptrack.png)
+
+## COMANDO iptraf
+> El comando `iptraf` en Linux es una herramienta interactiva de monitoreo de tráfico de red que proporciona estadísticas detalladas sobre el tráfico de la red en tiempo real. Muestra información sobre las conexiones activas, el uso de ancho de banda, las direcciones IP de origen y destino, los puertos utilizados, el número de paquetes y los bytes transferidos, entre otros.
+
+![COMANDO iptraf](img/iptraf.png)
+
+## COMANDO bmon
+> El comando `bmon` es una herramienta en Linux que permite monitorear el uso del ancho de banda en tiempo real. Muestra estadísticas detalladas sobre la cantidad de datos enviados y recibidos a través de las interfaces de red del sistema.
+
+![COMANDO bmon](img/bmon.png)

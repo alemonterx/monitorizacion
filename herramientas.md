@@ -4,22 +4,6 @@
 
 > El comando `ps` en Linux muestra información sobre los procesos en ejecución
 
-*ps a* 
-
-![COMANDO ps a](img/psa.png)
-
-- Este comando muestra información sobre todos los procesos asociados a terminales, incluidos los de otros usuarios.
-
----
-
-*ps au*
-
-![COMANDO ps au](img/psau.png)
-
-- Este comando muestra información detallada sobre todos los procesos asociados a terminales, incluyendo el usuario, uso de CPU, memoria y otros datos clave.
-
----
-
 *ps aux*
 
 ![COMANDO ps aux](img/psaux.png)
@@ -30,6 +14,14 @@
 
 *ps -C nano*
 
-![COMAND ps -C nano](img/psCnano.png)
+![COMAND ps -C](img/psCnano.png)
 
 - Este comando muestra información específica sobre los procesos cuyo nombre coincida exactamente con `nano`.
+
+---
+
+*ps -eo user,pid,$cpu,%mem,time --sort=-%cpu | head -n 6*
+
+![COMANDO ps -eo](img/pseo.png)
+
+- Este comando Muestra los 6 procesos principales (incluyendo el encabezado) ordenados por el uso de CPU en orden descendente, con información del usuario, PID, porcentaje de CPU y memoria utilizada, y el tiempo de ejecución del proceso.

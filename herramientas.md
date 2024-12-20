@@ -14,4 +14,14 @@
 
 *PS AU*
 
-![COMANDO PS AU](ima/psau.png)
+![COMANDO PS AU](img/psau.png)
+
+- Este comando muestra información detallada sobre todos los procesos asociados a terminales, incluyendo el usuario, uso de CPU, memoria y otros datos clave.
+
+---
+
+*PS AUX*
+
+![COMANDO PS AUX](img/psaux.png)
+
+- Este comando muestra información detallada de todos los procesos del sistema, incluidos los que no están asociados a terminales, junto con datos como usuario, uso de CPU y memoria.

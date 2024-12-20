@@ -1,6 +1,4 @@
-# MONITORIZACIÓN DE PROCESOS, ALMACENAMIENTO Y RED
-
-# PROCESOS
+# MONITORIZACIÓN DE PROCESOS
 
 ## COMANDO PS
 
@@ -9,3 +7,11 @@
 *PS A* 
 
 ![COMANDO PS A](img/psa.png)
+
+- Este comando muestra información sobre todos los procesos asociados a terminales, incluidos los de otros usuarios.
+
+---
+
+*PS AU*
+
+![COMANDO PS AU](ima/psau.png)

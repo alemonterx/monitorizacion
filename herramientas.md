@@ -69,3 +69,11 @@ Los comandos df -h, df -hT y df -h / en Linux tienen las siguientes funciones:
 * `df -h /`: Muestra el uso del sistema de archivos de la raíz ("/"), en formato legible para el ser humano, mostrando el espacio utilizado y disponible en la partición donde está montada la raíz del sistema.
 
 ![COMANDO df](img/df.png)
+
+Los comandos iostat e iostat -x sda en Linux tienen las siguientes funciones:
+
+* `iostat`: Muestra estadísticas sobre el uso de CPU y el rendimiento de los dispositivos de entrada/salida (I/O), como discos y particiones, incluyendo datos sobre operaciones de lectura y escritura, tiempo de espera y uso de recursos.
+
+* `iostat -x sda`: Muestra estadísticas extendidas (con más detalles) de I/O específicamente para el dispositivo sda (el primer disco duro o SSD en muchos sistemas Linux), proporcionando información más detallada sobre el rendimiento del dispositivo, como tiempos de espera, latencia y operaciones por segundo.
+
+![COMANDO iostat](img/iostat.png)

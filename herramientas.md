@@ -57,3 +57,20 @@
 > El comando `htop` en Linux es una herramienta interactiva que muestra una vista en tiempo real de los procesos en ejecución, similar a top, pero con una interfaz más amigable y visual, permitiendo gestionar procesos, ordenar información y ver el uso de recursos como CPU, memoria y red de manera más detallada.
 
 ![COMANDO htop](img/htop.png)
+
+---
+
+# MONITORIZACIÓN DE ALMACENAMIENTO
+
+## COMANDO FREE
+
+> Los comandos free, free -h y free -s 3 en Linux tienen las siguientes funciones:
+
+* `free`: Muestra la cantidad de memoria total, usada, libre y compartida en el sistema, tanto para la memoria RAM como para la memoria de intercambio (swap).
+
+* `free -h`: Muestra la misma información que free, pero con las cifras en un formato legible para el ser humano (usando unidades como MB, GB, etc.).
+
+* `free -s 3`: Muestra la información de la memoria, actualizada cada 3 segundos, permitiendo monitorear en tiempo real el uso de la memoria.
+
+![COMANDO free](img/free.png)
+

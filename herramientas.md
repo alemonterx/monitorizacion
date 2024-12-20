@@ -1,8 +1,6 @@
 # MONITORIZACIÓN DE PROCESOS, ALMACENAMIENTO Y RED
 
-## PROCESOS
-
----
+## --------------- PROCESOS ---------------
 
 ## COMANDO PS
 
